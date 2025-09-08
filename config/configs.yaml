@@ -1,0 +1,24 @@
+defaults:
+  - model: FPN
+  # - model: Unet
+
+masks: True
+train: False
+
+cvat_xml: /mnt/sda1/lseg/outputs/snapshots/tmcs_2021_11_19_11_02_50/best_predictions/machine_annotations_2021_11_19.xml
+
+image_dir: /mnt/sda1/lseg/datasets/images_21-11-19
+mask_dir: /mnt/sda1/lseg/datasets/masks_21-11-19
+data_dir: /mnt/sda1/lseg/datasets/
+work_dir: /mnt/sda1/lseg/outputs/
+
+max_epochs: 30
+n_folds: 5
+n_workers: 10
+log_jaccard: True
+lr: 0.0001
+wd: 0.0001
+bs: 16
+seed: 12345
+
+
