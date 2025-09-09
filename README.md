@@ -6,6 +6,8 @@ DL pipeline that provided baseline segmentations for Pfirrmann grade classificat
 
 And domain adapted segmentation and 3D-slicer extension by Kowlagi et al. [here](https://journals.lww.com/spinejournal/abstract/9900/olsia__open_lumbar_spine_image_analysis___a_3d.1095.aspx) and [here](https://imedslab.github.io/spineslicer/).
 
+Culminated in publication of [robust radiomic signatures of disc degeneration](https://journals.lww.com/spinejournal/abstract/9900/robust_radiomic_signatures_of_intervertebral_disc.1063.aspx).
+
 # Active learning approach
 
 <img width="1676" height="938" alt="Screenshot 2025-09-09 at 8 57 27" src="https://github.com/user-attachments/assets/eef1cfd0-9a30-42c6-b371-d3f6cbc39741" />
